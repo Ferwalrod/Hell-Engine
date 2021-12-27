@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\resources">
+      <UniqueIdentifier>{93565631-f20f-4bb8-9fcc-5391ee9e20dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\resources\shaders">
+      <UniqueIdentifier>{cf4ed9a4-390b-4ac5-a089-0c7707da6a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\resources\images">
+      <UniqueIdentifier>{70c7900c-c2bf-416b-b339-8688bdc364a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\resources\SOIL2">
+      <UniqueIdentifier>{5e85c3a0-552e-488e-b9da-3163376f1515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\resources\Input">
+      <UniqueIdentifier>{6e0a8d1f-1980-467e-b56e-2370351f9847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\resources\GameLogic">
+      <UniqueIdentifier>{9b924cc2-ab0d-40f5-b4a9-322ef8b6bf5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\resources\WorldDataBase">
+      <UniqueIdentifier>{a24a1f39-f2ef-43f1-963d-5f296df19c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\resources\AudioSubsystem">
+      <UniqueIdentifier>{5581ecb2-5369-4be7-affe-1da3e20769c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\resources\WorldObject">
+      <UniqueIdentifier>{821eb213-e474-4144-b9bd-72b6c14fa324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\resources\TextureHandling">
+      <UniqueIdentifier>{3a2c2511-850a-4bd8-bcaa-32bdc2b59d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\resources\ParticleSystem">
+      <UniqueIdentifier>{a566e91b-ceeb-44e8-b473-9350406f218f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\resources\PhysicsSubsystem">
+      <UniqueIdentifier>{572412a3-86a9-4631-a391-1c5d733a9361}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL2\image_DXT.c">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL2\image_helper.c">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL2\SOIL2.c">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL2\wfETC.c">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClCompile>
+    <ClCompile Include="CNode.cpp">
+      <Filter>Archivos de origen\resources\WorldDataBase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="core.vs">
+      <Filter>Archivos de origen</Filter>
+    </Text>
+    <Text Include="core.frag">
+      <Filter>Archivos de origen</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\image_DXT.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\image_helper.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\jo_jpeg.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\pkm_helper.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\pvr_helper.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\SOIL2.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\stb_image.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\stb_image_write.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\stbi_DDS.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\stbi_DDS_c.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\stbi_ext.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\stbi_ext_c.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\stbi_pkm.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\stbi_pkm_c.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\stbi_pvr.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\stbi_pvr_c.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL2\wfETC.h">
+      <Filter>Archivos de origen\resources\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="CNode.h">
+      <Filter>Archivos de origen\resources\WorldDataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Archivos de origen\resources\WorldDataBase</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="EGC.jpeg">
+      <Filter>Archivos de origen</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
