@@ -49,6 +49,18 @@
     <Filter Include="Archivos de origen\resources\PhysicsSubsystem">
       <UniqueIdentifier>{572412a3-86a9-4631-a391-1c5d733a9361}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\EngineCore">
+      <UniqueIdentifier>{facb7244-c1d7-4ad5-9b7d-c8868550685d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\EngineCore\3DObjects">
+      <UniqueIdentifier>{2a50fbc7-5538-4790-8dac-30c78f0d1a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\HMath">
+      <UniqueIdentifier>{ff34b219-45ba-4c10-a111-944b24294774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\HTL">
+      <UniqueIdentifier>{5de24a6e-42c8-4b32-b436-e1ff2bc8a8bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -68,6 +80,12 @@
     </ClCompile>
     <ClCompile Include="CNode.cpp">
       <Filter>Archivos de origen\resources\WorldDataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCore\Core.cpp">
+      <Filter>Archivos de origen\EngineCore</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCore\3DObjects\Objects.cpp">
+      <Filter>Archivos de origen\EngineCore\3DObjects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +156,18 @@
     </ClInclude>
     <ClInclude Include="CObject.h">
       <Filter>Archivos de origen\resources\WorldDataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCore\Core.h">
+      <Filter>Archivos de origen\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCore\3DObjects\Objects.h">
+      <Filter>Archivos de origen\EngineCore\3DObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="HMath\HMath.h">
+      <Filter>Archivos de origen\HMath</Filter>
+    </ClInclude>
+    <ClInclude Include="HTL\HTL.h">
+      <Filter>Archivos de origen\HTL</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

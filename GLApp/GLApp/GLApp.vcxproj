@@ -88,7 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)/../External Libraries/GLFW/include;$(SolutionDir)/../External Libraries/GLEW/include;$(SolutionDir)\..\External Libraries\freeglut\include\GL;$(SolutionDir)\..\External Libraries\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)/../External Libraries/GLFW/include;$(SolutionDir)/../External Libraries/GLEW/include;$(SolutionDir)\..\External Libraries\freeglut\include\GL;$(SolutionDir)\..\External Libraries\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include;$(SolutionDir)\GLApp\..\HTL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,6 +146,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CNode.cpp" />
+    <ClCompile Include="EngineCore\3DObjects\Objects.cpp" />
+    <ClCompile Include="EngineCore\Core.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SOIL2\image_DXT.c" />
     <ClCompile Include="SOIL2\image_helper.c" />
@@ -159,6 +161,10 @@
   <ItemGroup>
     <ClInclude Include="CNode.h" />
     <ClInclude Include="CObject.h" />
+    <ClInclude Include="EngineCore\3DObjects\Objects.h" />
+    <ClInclude Include="EngineCore\Core.h" />
+    <ClInclude Include="HMath\HMath.h" />
+    <ClInclude Include="HTL\HTL.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="SOIL2\image_DXT.h" />
     <ClInclude Include="SOIL2\image_helper.h" />
