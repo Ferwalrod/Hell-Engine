@@ -15,7 +15,7 @@
 using namespace std;
 
 const int WIDTH = 800, HEIGHT = 600;
-HArray<HEntity*> HellEngine::Entities(20);
+HArray<HEntity> HellEngine::Entities(20);
 void changeViewPort(int w, int h)
 {
 	glViewport(0, 0, w, h);
